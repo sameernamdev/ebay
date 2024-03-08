@@ -1,0 +1,36 @@
+.Firstslider{
+    height: 50%;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+.Firstslider ion-icon{
+    font-size: 40px;
+    filter: drop-shadow(0px 10px 10px black);
+    /* color: black; */
+}
+.prev{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    font-size: 20px;
+    /* color: white; */
+    /* border: 2px solid red; */
+    background-color: transparent;
+}
+.next{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    font-size: 20px;
+    /* color: white; */
+    /* border: 2px solid red; */
+    background-color: transparent;
+}

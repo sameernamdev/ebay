@@ -1,0 +1,53 @@
+.contain {
+    /* width: 100vw; */
+    height: 81vh;
+    background: linear-gradient(160deg, rgb(27, 187, 187) 50%, white 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.badabox{
+    height: 90%;
+    width: 60%;
+    background-color: yellow;
+    display: flex;
+    box-shadow: 0px 0px 10px 5px;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-color: white;
+    /* #8f4646 */
+}
+.box2{
+    padding-left: 10px;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(27, 187, 187) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box2 .sizes{
+   height: 60px;
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.sizes button{
+    background-color: rgb(44, 44, 239)  ;
+}
+.buy {
+    /* border: 2px solid red;    */
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.buy button{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(44, 44, 239)  ;
+}
